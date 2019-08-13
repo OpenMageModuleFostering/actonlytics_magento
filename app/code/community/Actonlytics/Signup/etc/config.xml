@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Actonlytics_Signup>
+            <version>1.0.0</version>
+        </Actonlytics_Signup>
+    </modules>
+
+    <global>
+        <blocks>
+            <actonlytics_signup>
+                <class>Actonlytics_Signup_Block</class>
+            </actonlytics_signup>
+        </blocks>
+
+        <helpers>
+            <actonlytics_signup>
+                <class>Actonlytics_Signup_Helper</class>
+            </actonlytics_signup>
+        </helpers>
+    </global>
+
+    <adminhtml>
+        <acl>
+            <resources>
+                <all>
+                    <title>Allow actonlytics signup</title>
+                </all>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <actonlytics>
+                                            <title>actonlytics Signup</title>
+                                        </actonlytics>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <signup_ctrl after="Mage_Adminhtml">Actonlytics_Signup_Adminhtml</signup_ctrl>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

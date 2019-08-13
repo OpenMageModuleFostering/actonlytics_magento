@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Actonlytics_Signup>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Actonlytics_Plugin />
+            </depends>
+        </Actonlytics_Signup>
+    </modules>
+</config>

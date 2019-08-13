@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config>
+    <frontend>
+        <routers>
+            <plugin>
+                <use>standard</use>
+                <args>
+                    <module>Actonlytics_Plugin</module>
+                    <frontName>actonlytics</frontName>
+                </args>
+            </plugin>
+        </routers>
+    </frontend>
+
+    <global>
+        <helpers>
+            <plugin>
+                <class>Mage_Core_Helper</class>
+            </plugin>
+        </helpers>
+    </global>
+</config>

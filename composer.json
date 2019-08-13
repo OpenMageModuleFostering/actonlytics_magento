@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/actonlytics_magento",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "Actonlytics plugin for Magento 1.7.x - 1.9.x plugin",
+    "authors": [
+    {
+        "name": "actonlytics",
+        "email": "si@itembase.biz"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

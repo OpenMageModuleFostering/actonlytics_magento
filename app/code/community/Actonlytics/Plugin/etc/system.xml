@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <actonlytics>
+            <label>actonlytics</label>
+            <sort_order>500</sort_order>
+        </actonlytics>
+    </tabs>
+</config>

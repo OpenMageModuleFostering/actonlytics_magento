@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <actonlyticssignup>
+                        <children>
+                            <index /><finish />
+                        </children>
+                    </actonlyticssignup>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
